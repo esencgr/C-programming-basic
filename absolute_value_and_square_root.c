@@ -10,15 +10,15 @@ int main ()
 	double x;
 	printf ("sayi giriniz:");
 	scanf ("%d",&sayi);
-	
+
 	printf ("mutlak sayi :%d dir\n ",mutlak(sayi));
 	x=sqrt(mutlak (sayi));
 	printf ("%d sayisinin karekoku :%2f",mutlak(sayi),x);
-	
-	
+
+
 	getch ();
 	return 0;
-	
+
 }
 
 int mutlak (int y)
@@ -26,10 +26,7 @@ int mutlak (int y)
 
 if (y<(-1))
 y=y*(-1);
-else 
+else
 y=y;
 return y;
 }
-
-
-
