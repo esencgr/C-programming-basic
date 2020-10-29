@@ -5,9 +5,7 @@ int main ()
 	int sayi;
 	printf ("sayi belirleyiniz:");
 	scanf ("%d",&sayi);
-	
 	int i,j ;
-	
 	for (i=sayi;i>0;i--)
 	{
 		for (j=0;j<i;j++)

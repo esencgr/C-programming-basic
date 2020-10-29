@@ -13,8 +13,6 @@ int main ()
 	
 	printf("%d %% %d=%d",x,y,mod);
 	
-	
-	
 	getch ();
 	return 0;
 	

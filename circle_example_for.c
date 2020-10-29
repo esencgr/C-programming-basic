@@ -2,10 +2,8 @@
 #include<stdlib.h>
 
 
-int main()
-{
-	int i,j,x=10,y=10,r=4;
-
+int main(){
+    int i,j,x=10,y=10,r=4;
     for(i=1;i<=20;i++)
     {
         for(j=1;j<=20;j++)
@@ -20,6 +18,5 @@ int main()
 
         printf("\n");
     }
-
-	return 0;
+    return 0;
 }

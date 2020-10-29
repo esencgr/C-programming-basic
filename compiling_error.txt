@@ -1,4 +1,0 @@
-/media/root/Yerel Disk/GitHub/C-programming-basic/absolute_value_and_square_root.c:2:9: fatal error: conio.h: Böyle bir dosya ya da dizin yok
- #include<conio.h>
-         ^~~~~~~~~
-compilation terminated.

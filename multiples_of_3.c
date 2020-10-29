@@ -7,13 +7,9 @@ int main ()
 	scanf ("%d",&sayi);
 	printf ("grdiginiz sayiya kadar olan ucun katlari:\n");
 	
-	for (i=0;i<=sayi;i+=3)
-	
-	{	   
-	 printf ("%d\n",i);
-	 
-
-	}
-	    getch();
-	    return 0;
+	for (i=0;i<=sayi;i+=3)	   
+           printf ("%d\n",i);
+        
+        getch();
+        return 0;
 }

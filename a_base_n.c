@@ -13,12 +13,9 @@ int main ()
 	{
 	sonuc=sonuc*a;
 	sayac++;
-		
-    }
-	printf ("a nin n. kuvveti:%d",sonuc);
-
-    
+        }
 	
+	printf ("a nin n. kuvveti:%d",sonuc);
 	getch ();
 	return 0;
 	

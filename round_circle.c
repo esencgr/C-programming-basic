@@ -16,7 +16,7 @@ int main ()
 			printf (" ");
 	
 		}
-			printf("\n");
+		printf("\n");
 	}
 	getch();
 	return 0;
