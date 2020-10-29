@@ -1,5 +1,4 @@
-#include<stdio.h>print "hello"
-
+#include<stdio.h>
 #include<conio.h>
 int main ()
 {
