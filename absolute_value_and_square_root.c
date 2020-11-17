@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 
 int mutlak(int);
@@ -14,7 +13,6 @@ int main (){
 	x=sqrt(mutlak (sayi));
 	printf ("%d sayisinin karekoku :%2f",mutlak(sayi),x);
 
-	getch ();
 	return 0;
 }
 
