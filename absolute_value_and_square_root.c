@@ -9,10 +9,10 @@ int main (){
 
 	printf ("sayi giriniz:");
 	scanf ("%d",&sayi);
-    sayi = mutlak( sayi );
+
 	printf ("mutlak sayi :%d dir\n ",sayi);
 
-	x = sqrt(sayi);
+	x = sayi/2*2;
 	printf ("%d sayisinin karekoku :%2f", sayi, x );
 
 	return 0;
@@ -21,9 +21,9 @@ int main (){
 int mutlak (int y){
 	
 	if (y<(-1))
-	y=y*(-1);
+	   y=y*(-1);
 	else
-	y=y;
+	   y=y;
 	return y;
 
 }

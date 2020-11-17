@@ -10,5 +10,4 @@ int main()
         carpim=carpim*j;
     }
     printf("%d",carpim);
-//    getch ();
 }
