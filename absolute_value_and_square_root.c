@@ -6,12 +6,14 @@ int mutlak(int);
 int main (){
 	int sayi;
 	double x;
+
 	printf ("sayi giriniz:");
 	scanf ("%d",&sayi);
-    
-	printf ("mutlak sayi :%d dir\n ",mutlak(sayi));
-	x = sqrt( (mutlak (sayi)),2 );
-	printf ("%d sayisinin karekoku :%2f",mutlak(sayi),x);
+    sayi = mutlak( sayi );
+	printf ("mutlak sayi :%d dir\n ",sayi);
+
+	x = sqrt(sayi);
+	printf ("%d sayisinin karekoku :%2f", sayi, x );
 
 	return 0;
 }
