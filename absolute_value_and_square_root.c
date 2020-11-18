@@ -5,15 +5,14 @@ int mutlak(int);
 
 int main (){
 	int sayi;
-	double x;
 
 	printf ("sayi giriniz:");
 	scanf ("%d",&sayi);
 
 	printf ("mutlak sayi :%d dir\n ",sayi);
 
-	x = sayi/2*2;
-	printf ("%d sayisinin karekoku :%2f", sayi, x );
+	double x = sayi * 2;
+	printf ("%d sayisinin karesi :%2f\n", sayi, x );
 
 	return 0;
 }

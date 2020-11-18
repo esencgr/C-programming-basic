@@ -4,7 +4,7 @@
 
 int main(){
     int i,j,x=10,y=10,r=4;
-    for(i=1;i<=20;i++)
+    for(i=1;i<=3;i++)
     {
         for(j=1;j<=20;j++)
         {
