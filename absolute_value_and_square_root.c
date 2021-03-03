@@ -18,7 +18,7 @@ int main (){
 }
 
 int mutlak (int y){
-	
+
 	if (y<(-1))
 	   y=y*(-1);
 	else
